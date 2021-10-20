@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25CBFEC03C0E2602AD6019B3 /* lsj-EnlargeEdge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "lsj-EnlargeEdge.podspec"; path = "../lsj-EnlargeEdge.podspec"; sourceTree = "<group>"; };
+		25CBFEC03C0E2602AD6019B3 /* lsj-EnlargeEdge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "lsj-EnlargeEdge.podspec"; path = "../lsj-EnlargeEdge.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3335A3EF129E4864F1CDC6ED /* Pods-lsj-EnlargeEdge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsj-EnlargeEdge_Tests.release.xcconfig"; path = "Target Support Files/Pods-lsj-EnlargeEdge_Tests/Pods-lsj-EnlargeEdge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		594C73A0F2ADDC7199B8D4A7 /* Pods-lsj-EnlargeEdge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsj-EnlargeEdge_Example.debug.xcconfig"; path = "Target Support Files/Pods-lsj-EnlargeEdge_Example/Pods-lsj-EnlargeEdge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* lsj-EnlargeEdge_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lsj-EnlargeEdge_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A617FB11DB67EA9544C13F60 /* Pods-lsj-EnlargeEdge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsj-EnlargeEdge_Example.release.xcconfig"; path = "Target Support Files/Pods-lsj-EnlargeEdge_Example/Pods-lsj-EnlargeEdge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CBD227A6352472EA389F09DF /* Pods-lsj-EnlargeEdge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsj-EnlargeEdge_Tests.debug.xcconfig"; path = "Target Support Files/Pods-lsj-EnlargeEdge_Tests/Pods-lsj-EnlargeEdge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CDEE4A6AEDD2250BC4C67AA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D3F0B1A11476B4CACDC47189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDEE4A6AEDD2250BC4C67AA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3F0B1A11476B4CACDC47189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				CBD227A6352472EA389F09DF /* Pods-lsj-EnlargeEdge_Tests.debug.xcconfig */,
 				3335A3EF129E4864F1CDC6ED /* Pods-lsj-EnlargeEdge_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

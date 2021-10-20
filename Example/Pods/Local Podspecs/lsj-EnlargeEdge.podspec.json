@@ -1,0 +1,22 @@
+{
+  "name": "lsj-EnlargeEdge",
+  "version": "0.1.0",
+  "summary": "A short description of lsj-EnlargeEdge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lsj/lsj-EnlargeEdge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lsj": "534016847@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lsj/lsj-EnlargeEdge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "lsj-EnlargeEdge/Classes/**/*"
+}

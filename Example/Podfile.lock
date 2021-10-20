@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - lsj-EnlargeEdge (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - lsj-EnlargeEdge (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  lsj-EnlargeEdge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  lsj-EnlargeEdge: 994bac1c8bfbd0a77c947e53c6a9a599a25d951c
+
+PODFILE CHECKSUM: 2ee25f08f611e0a2e1d2cf93058ebdb9e2f981fc
+
+COCOAPODS: 1.9.1

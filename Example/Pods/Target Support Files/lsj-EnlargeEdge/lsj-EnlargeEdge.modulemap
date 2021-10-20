@@ -1,0 +1,6 @@
+framework module lsj_EnlargeEdge {
+  umbrella header "lsj-EnlargeEdge-umbrella.h"
+
+  export *
+  module * { export * }
+}
