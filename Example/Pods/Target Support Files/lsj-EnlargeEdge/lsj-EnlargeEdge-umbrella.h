@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIButton+EnlargeEdge.h"
 
 FOUNDATION_EXPORT double lsj_EnlargeEdgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char lsj_EnlargeEdgeVersionString[];

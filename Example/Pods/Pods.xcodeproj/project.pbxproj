@@ -8,33 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083E7A0F08F290DB1C9392EDA149C0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2717D0275A2543B33DED97DC284A32C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D7D5F45521334F31C666112FB3C0A8B /* UIButton+LSJEnlargeEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFB850C0E5FA5EF8A52E2F335880013 /* UIButton+LSJEnlargeEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56828D71C389D8AD7D3AC96F91FD962F /* lsj-EnlargeEdge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8689A42341091C645DA4E8273B3E5A /* lsj-EnlargeEdge-dummy.m */; };
 		5BD725C36BF9F5839566BEE0022C4617 /* Pods-lsj-EnlargeEdge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B02EC4E07E396D09A23CF87C2A1F2B73 /* Pods-lsj-EnlargeEdge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DCEC6A00ED5FDECC97B0F7C71DE4DF2 /* UIButton+LSJEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1BA72A6B4DECB80DE26710CA5DD917 /* UIButton+LSJEnlargeEdge.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A4188A5A3488A555B8A4436FEF716B54 /* lsj-EnlargeEdge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F272477BDC3D5F80469546824FF5A1 /* lsj-EnlargeEdge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		A765C3C31386C89B7A8A8DAB85F874B0 /* Pods-lsj-EnlargeEdge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B61294B744334FE5A243CD17A322A26 /* Pods-lsj-EnlargeEdge_Tests-dummy.m */; };
-		AB594D0090800607A6E3D28859F0480C /* lsj-EnlargeEdge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CBDC994F0A9BA7839220FDA46920DA /* lsj-EnlargeEdge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7C6DAF2BAFDCDCFA6604587409B7777 /* lsj-EnlargeEdge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A355C993348DBB22B3917E6933D25 /* lsj-EnlargeEdge-dummy.m */; };
 		CF1B014E2E58EC9E43A1D53EBE2F9B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D1C8E6D99EC5C92CB9F705ACAEAD0B68 /* Pods-lsj-EnlargeEdge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED6160F13CE1153AE015EA60E73393A /* Pods-lsj-EnlargeEdge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9F692F610CEA7C77F71C72E1003A46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		E91CE8E909726A81D8407E8C98C48FF3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EAC84307FB5E6694D248E3E6CAA3F3 /* ReplaceMe.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD996939772FE7A44F9FA3A5CA8DAE7A /* Pods-lsj-EnlargeEdge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B54588AD2D912B5CD94682978E2217B8 /* Pods-lsj-EnlargeEdge_Example-dummy.m */; };
@@ -65,82 +66,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8689A42341091C645DA4E8273B3E5A /* lsj-EnlargeEdge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lsj-EnlargeEdge-dummy.m"; sourceTree = "<group>"; };
 		0C907096DDB704FF0CBEDE235B5D7C9E /* Pods-lsj-EnlargeEdge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lsj-EnlargeEdge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0C925F12BC435F675717FAC8EBFCF1ED /* Pods-lsj-EnlargeEdge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lsj-EnlargeEdge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0ED6160F13CE1153AE015EA60E73393A /* Pods-lsj-EnlargeEdge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lsj-EnlargeEdge_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		11EAC84307FB5E6694D248E3E6CAA3F3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "lsj-EnlargeEdge/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		18F272477BDC3D5F80469546824FF5A1 /* lsj-EnlargeEdge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lsj-EnlargeEdge-umbrella.h"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		22C175369487EE64F471D92BD302269A /* Pods-lsj-EnlargeEdge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lsj-EnlargeEdge_Tests.modulemap"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2EAD6F91157F9C1722F992ABC0716084 /* Pods-lsj-EnlargeEdge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lsj-EnlargeEdge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3198DC98B0F6C8910F9B5CDB757EB850 /* lsj-EnlargeEdge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lsj-EnlargeEdge-prefix.pch"; sourceTree = "<group>"; };
-		3B8A355C993348DBB22B3917E6933D25 /* lsj-EnlargeEdge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lsj-EnlargeEdge-dummy.m"; sourceTree = "<group>"; };
-		3BF3633945773009B91AB1A0D05AD505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		4282C2E5AA10BE38EF45AAEC1C6970AE /* lsj-EnlargeEdge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lsj-EnlargeEdge-Info.plist"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4B379BA82D2D96B65D5D217B88A351A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		50578CBE7FD8D850A4533D8E32B839E5 /* Pods-lsj-EnlargeEdge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lsj-EnlargeEdge_Example.modulemap"; sourceTree = "<group>"; };
-		535537D24AA04019C59CA12352C2157B /* lsj_EnlargeEdge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lsj_EnlargeEdge.framework; path = "lsj-EnlargeEdge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		535537D24AA04019C59CA12352C2157B /* lsj_EnlargeEdge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lsj_EnlargeEdge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375FB8889FF8CE047946B9F3506C151 /* lsj-EnlargeEdge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lsj-EnlargeEdge-prefix.pch"; sourceTree = "<group>"; };
 		53D7B2CE1B379D2DCA07C31DA08CDD8B /* Pods-lsj-EnlargeEdge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lsj-EnlargeEdge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55929F9F7B37FD609EAF2F7C468F34AF /* Pods-lsj-EnlargeEdge_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lsj-EnlargeEdge_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		56B799C1486849BBF970A3BACBEB6102 /* lsj-EnlargeEdge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lsj-EnlargeEdge.release.xcconfig"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA93DB97A8143870A3FA2B7139E0166 /* Pods-lsj-EnlargeEdge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lsj-EnlargeEdge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		61CBDC994F0A9BA7839220FDA46920DA /* lsj-EnlargeEdge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lsj-EnlargeEdge-umbrella.h"; sourceTree = "<group>"; };
+		60E689A0AB02C5B46FB31F1EF04CD40B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6B61294B744334FE5A243CD17A322A26 /* Pods-lsj-EnlargeEdge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lsj-EnlargeEdge_Tests-dummy.m"; sourceTree = "<group>"; };
+		6BDFE2C504E6E7E681A0D53F4D13425C /* lsj-EnlargeEdge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lsj-EnlargeEdge.debug.xcconfig"; sourceTree = "<group>"; };
 		6D25002CC1A0C1065D55BCB5192BE1EB /* Pods-lsj-EnlargeEdge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lsj-EnlargeEdge_Example-Info.plist"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8B80E12B8DA315A8E385B7273A575A80 /* lsj-EnlargeEdge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "lsj-EnlargeEdge.modulemap"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8D3FC5A484387CFE549D9EF421E37F2C /* Pods-lsj-EnlargeEdge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lsj-EnlargeEdge_Tests-Info.plist"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		91D703FA745158829668512B3B9E4FF2 /* Pods-lsj-EnlargeEdge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lsj-EnlargeEdge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92C84665DEA4134C3DD180A7701946C8 /* lsj-EnlargeEdge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lsj-EnlargeEdge.release.xcconfig"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		94E640112607E5851F5721F4E523B111 /* Pods_lsj_EnlargeEdge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lsj_EnlargeEdge_Example.framework; path = "Pods-lsj-EnlargeEdge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E640112607E5851F5721F4E523B111 /* Pods_lsj_EnlargeEdge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lsj_EnlargeEdge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9771599C9E5390C657419A1DB5E80C82 /* Pods-lsj-EnlargeEdge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lsj-EnlargeEdge_Example-frameworks.sh"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1A49608FD7F3E58B1C6E7823F89BFCA /* lsj-EnlargeEdge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "lsj-EnlargeEdge.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFB850C0E5FA5EF8A52E2F335880013 /* UIButton+LSJEnlargeEdge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LSJEnlargeEdge.h"; path = "lsj-EnlargeEdge/Classes/UIButton+LSJEnlargeEdge.h"; sourceTree = "<group>"; };
 		A3203E878A9B2032402B6EFD21D091EF /* Pods-lsj-EnlargeEdge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lsj-EnlargeEdge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B02EC4E07E396D09A23CF87C2A1F2B73 /* Pods-lsj-EnlargeEdge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lsj-EnlargeEdge_Example-umbrella.h"; sourceTree = "<group>"; };
 		B54588AD2D912B5CD94682978E2217B8 /* Pods-lsj-EnlargeEdge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lsj-EnlargeEdge_Example-dummy.m"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B75DBF626C5C02D0FB3C5EB7AB75F948 /* Pods_lsj_EnlargeEdge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lsj_EnlargeEdge_Tests.framework; path = "Pods-lsj-EnlargeEdge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC217359A2A364F9C4783FACAAFC5B69 /* lsj-EnlargeEdge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lsj-EnlargeEdge.debug.xcconfig"; sourceTree = "<group>"; };
+		B75DBF626C5C02D0FB3C5EB7AB75F948 /* Pods_lsj_EnlargeEdge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lsj_EnlargeEdge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEF435D3A81DF2890A22B693A28A115 /* lsj-EnlargeEdge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "lsj-EnlargeEdge.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB1BA72A6B4DECB80DE26710CA5DD917 /* UIButton+LSJEnlargeEdge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LSJEnlargeEdge.m"; path = "lsj-EnlargeEdge/Classes/UIButton+LSJEnlargeEdge.m"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DAFFC3B6861832C73807252EEDBBC203 /* lsj-EnlargeEdge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "lsj-EnlargeEdge.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBC18C22941BE646E456B97190937914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4DE3472D4B0EE50C61EF23DF471BE46 /* lsj-EnlargeEdge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lsj-EnlargeEdge-Info.plist"; sourceTree = "<group>"; };
 		FD07863B0F3DA4456E3C86177A3FC556 /* Pods-lsj-EnlargeEdge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lsj-EnlargeEdge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A174B8EF8277C12ED61A8DC2BAD09BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2717D0275A2543B33DED97DC284A32C1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		36C8DF9E4EE541EEE6EC7B5D7ED1DD2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9F692F610CEA7C77F71C72E1003A46A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E4E28F37E3CAF2CE11099FE7FA584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083E7A0F08F290DB1C9392EDA149C0EA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +185,21 @@
 			path = "Target Support Files/Pods-lsj-EnlargeEdge_Tests";
 			sourceTree = "<group>";
 		};
+		0D1B7CD3D840212B32C032092F3AA4B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B80E12B8DA315A8E385B7273A575A80 /* lsj-EnlargeEdge.modulemap */,
+				0A8689A42341091C645DA4E8273B3E5A /* lsj-EnlargeEdge-dummy.m */,
+				F4DE3472D4B0EE50C61EF23DF471BE46 /* lsj-EnlargeEdge-Info.plist */,
+				5375FB8889FF8CE047946B9F3506C151 /* lsj-EnlargeEdge-prefix.pch */,
+				18F272477BDC3D5F80469546824FF5A1 /* lsj-EnlargeEdge-umbrella.h */,
+				6BDFE2C504E6E7E681A0D53F4D13425C /* lsj-EnlargeEdge.debug.xcconfig */,
+				92C84665DEA4134C3DD180A7701946C8 /* lsj-EnlargeEdge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/lsj-EnlargeEdge";
+			sourceTree = "<group>";
+		};
 		0F7208A4618365439DAA8577D47EFF00 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,25 +207,6 @@
 				0B0EBD995A641449CBA1C914F3DE9694 /* Pods-lsj-EnlargeEdge_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		23AD9B41110FF02C7AC10B55929A48DF /* lsj-EnlargeEdge */ = {
-			isa = PBXGroup;
-			children = (
-				11EAC84307FB5E6694D248E3E6CAA3F3 /* ReplaceMe.m */,
-				917D60F3786FB2FBD727258C268B3463 /* Pod */,
-				740763C35FF7C3DE30B510AB4595FB32 /* Support Files */,
-			);
-			name = "lsj-EnlargeEdge";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		260053899F6FADBDE8E2397B918D54B5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				23AD9B41110FF02C7AC10B55929A48DF /* lsj-EnlargeEdge */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		421F30123E0315D34B6B5FD562A96432 /* Pods-lsj-EnlargeEdge_Example */ = {
@@ -249,21 +247,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		740763C35FF7C3DE30B510AB4595FB32 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1A49608FD7F3E58B1C6E7823F89BFCA /* lsj-EnlargeEdge.modulemap */,
-				3B8A355C993348DBB22B3917E6933D25 /* lsj-EnlargeEdge-dummy.m */,
-				4282C2E5AA10BE38EF45AAEC1C6970AE /* lsj-EnlargeEdge-Info.plist */,
-				3198DC98B0F6C8910F9B5CDB757EB850 /* lsj-EnlargeEdge-prefix.pch */,
-				61CBDC994F0A9BA7839220FDA46920DA /* lsj-EnlargeEdge-umbrella.h */,
-				BC217359A2A364F9C4783FACAAFC5B69 /* lsj-EnlargeEdge.debug.xcconfig */,
-				56B799C1486849BBF970A3BACBEB6102 /* lsj-EnlargeEdge.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/lsj-EnlargeEdge";
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,14 +266,16 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		917D60F3786FB2FBD727258C268B3463 /* Pod */ = {
+		99856E100B311AFFCF00440B49184540 /* lsj-EnlargeEdge */ = {
 			isa = PBXGroup;
 			children = (
-				3BF3633945773009B91AB1A0D05AD505 /* LICENSE */,
-				DAFFC3B6861832C73807252EEDBBC203 /* lsj-EnlargeEdge.podspec */,
-				4B379BA82D2D96B65D5D217B88A351A1 /* README.md */,
+				9DFB850C0E5FA5EF8A52E2F335880013 /* UIButton+LSJEnlargeEdge.h */,
+				BB1BA72A6B4DECB80DE26710CA5DD917 /* UIButton+LSJEnlargeEdge.m */,
+				E197D98C1FA43EA10DEF8CF2FAFE383F /* Pod */,
+				0D1B7CD3D840212B32C032092F3AA4B8 /* Support Files */,
 			);
-			name = Pod;
+			name = "lsj-EnlargeEdge";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -323,7 +308,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -342,12 +326,30 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				260053899F6FADBDE8E2397B918D54B5 /* Development Pods */,
+				E695946E946BE81938F6E9E32003747E /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				BFEC8284D83CB9D1F0FD01E1383B1235 /* Products */,
 				0F7208A4618365439DAA8577D47EFF00 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E197D98C1FA43EA10DEF8CF2FAFE383F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DBC18C22941BE646E456B97190937914 /* LICENSE */,
+				BAEF435D3A81DF2890A22B693A28A115 /* lsj-EnlargeEdge.podspec */,
+				60E689A0AB02C5B46FB31F1EF04CD40B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E695946E946BE81938F6E9E32003747E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99856E100B311AFFCF00440B49184540 /* lsj-EnlargeEdge */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -361,11 +363,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		311A824FC9D329E063C3B1BA5D87910F /* Headers */ = {
+		3276E598F21D728196594D2ECCD8164A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB594D0090800607A6E3D28859F0480C /* lsj-EnlargeEdge-umbrella.h in Headers */,
+				A4188A5A3488A555B8A4436FEF716B54 /* lsj-EnlargeEdge-umbrella.h in Headers */,
+				4D7D5F45521334F31C666112FB3C0A8B /* UIButton+LSJEnlargeEdge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,12 +408,12 @@
 /* Begin PBXNativeTarget section */
 		1E64FE3224CA0218E59F42797E745BCD /* lsj-EnlargeEdge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58C2C397778B1CABFFB33F15269311F /* Build configuration list for PBXNativeTarget "lsj-EnlargeEdge" */;
+			buildConfigurationList = BEE9A719C4C607516918A111C25B71CE /* Build configuration list for PBXNativeTarget "lsj-EnlargeEdge" */;
 			buildPhases = (
-				311A824FC9D329E063C3B1BA5D87910F /* Headers */,
-				8299BFAE91769D1BDAFC57F02F392DEF /* Sources */,
-				0A174B8EF8277C12ED61A8DC2BAD09BA /* Frameworks */,
-				DC5076A4CDE66F0AE43AE21B962FBDD0 /* Resources */,
+				3276E598F21D728196594D2ECCD8164A /* Headers */,
+				254E96A9B0D4B32A0BBD1721D09A3504 /* Sources */,
+				A2E4E28F37E3CAF2CE11099FE7FA584B /* Frameworks */,
+				823CED96C8C052E8ED0A2EA91F73CD64 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -523,14 +526,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2CD3BBEF2F494E51FEE99020B2D3962 /* Resources */ = {
+		823CED96C8C052E8ED0A2EA91F73CD64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC5076A4CDE66F0AE43AE21B962FBDD0 /* Resources */ = {
+		C2CD3BBEF2F494E51FEE99020B2D3962 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,12 +543,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8299BFAE91769D1BDAFC57F02F392DEF /* Sources */ = {
+		254E96A9B0D4B32A0BBD1721D09A3504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7C6DAF2BAFDCDCFA6604587409B7777 /* lsj-EnlargeEdge-dummy.m in Sources */,
-				E91CE8E909726A81D8407E8C98C48FF3 /* ReplaceMe.m in Sources */,
+				56828D71C389D8AD7D3AC96F91FD962F /* lsj-EnlargeEdge-dummy.m in Sources */,
+				5DCEC6A00ED5FDECC97B0F7C71DE4DF2 /* UIButton+LSJEnlargeEdge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,69 +608,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0350D5F3189C3CAC2F7F74ED3E8C7078 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC217359A2A364F9C4783FACAAFC5B69 /* lsj-EnlargeEdge.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge.modulemap";
-				PRODUCT_MODULE_NAME = lsj_EnlargeEdge;
-				PRODUCT_NAME = lsj_EnlargeEdge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0EA1C6140C4E6AEE4253E2626958150A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56B799C1486849BBF970A3BACBEB6102 /* lsj-EnlargeEdge.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge.modulemap";
-				PRODUCT_MODULE_NAME = lsj_EnlargeEdge;
-				PRODUCT_NAME = lsj_EnlargeEdge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		359F861EEE8AFC2E717892FE0A1A9920 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CA93DB97A8143870A3FA2B7139E0166 /* Pods-lsj-EnlargeEdge_Tests.debug.xcconfig */;
@@ -722,6 +662,37 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72A713A1DDF2C7A9F962BFCD39688F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDFE2C504E6E7E681A0D53F4D13425C /* lsj-EnlargeEdge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge.modulemap";
+				PRODUCT_MODULE_NAME = lsj_EnlargeEdge;
+				PRODUCT_NAME = lsj_EnlargeEdge;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -819,8 +790,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -989,6 +959,38 @@
 			};
 			name = Release;
 		};
+		E5ED2BDF0CC285BD6C27CF04C0611459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C84665DEA4134C3DD180A7701946C8 /* lsj-EnlargeEdge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lsj-EnlargeEdge/lsj-EnlargeEdge.modulemap";
+				PRODUCT_MODULE_NAME = lsj_EnlargeEdge;
+				PRODUCT_NAME = lsj_EnlargeEdge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1028,11 +1030,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58C2C397778B1CABFFB33F15269311F /* Build configuration list for PBXNativeTarget "lsj-EnlargeEdge" */ = {
+		BEE9A719C4C607516918A111C25B71CE /* Build configuration list for PBXNativeTarget "lsj-EnlargeEdge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0350D5F3189C3CAC2F7F74ED3E8C7078 /* Debug */,
-				0EA1C6140C4E6AEE4253E2626958150A /* Release */,
+				72A713A1DDF2C7A9F962BFCD39688F99 /* Debug */,
+				E5ED2BDF0CC285BD6C27CF04C0611459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
