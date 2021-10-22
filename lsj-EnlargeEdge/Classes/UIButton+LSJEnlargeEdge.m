@@ -65,28 +65,4 @@ static char rightNameKey;
     return CGRectContainsPoint(rect, point) ? YES : NO;
 }
 
-//- (UIView*)hitTest:(CGPoint) point withEvent:(UIEvent*) event
-//{
-//    // !!!: 问题一： 将这个扩展改成 UIView 的时候，这里无法被触发
-//    // !!!: 问题二： UIButton addTarget TouUpInsert 范围内，却没有触发事件
-//    // !!!: 只有通过 addGestureTap 手势的时候才正常
-//
-//    CGRect rect = [self enlargedRect];
-//    CGRect bounds = self.bounds;
-//    if (CGRectEqualToRect(rect, self.bounds))
-//    {
-//        if(self.tag == 999){
-//            NSLog(@"CGRectEqualToRect(rect, self.bounds) - %@",[super hitTest:point withEvent:event]);
-//        }
-//        return [super hitTest:point withEvent:event];
-//    }
-//
-//    UIView *result = CGRectContainsPoint(rect, point) ? self : nil;
-//    if(self.tag == 999){
-//        NSLog(@"%@",result);
-//    }
-//    return result;
-//}
-
-
 @end
