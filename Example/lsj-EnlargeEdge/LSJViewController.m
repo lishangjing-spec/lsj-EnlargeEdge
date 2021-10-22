@@ -29,6 +29,7 @@
     button.backgroundColor = [UIColor redColor];
     [button setTitle:@"我增大了点击范围" forState:UIControlStateNormal];
     [button lsj_setEnlargeEdgeWithTop:50 left:50 bottom:50 right:100];// 黄色区域内都可以触发
+    [button lsj_setEnlargeEdge:50];
     button.titleLabel.font = [UIFont systemFontOfSize:12];
     [self.view addSubview:button];
 //    [button addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonClick)]];
